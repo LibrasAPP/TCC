@@ -1,4 +1,26 @@
-#logoNav {
-    height: 64px;
-    width: ;
+#logonav {
+    margin-left: 40px;
 }
+
+#nomesite {
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+	margin-left: 5px;
+}
+
+#inicio {
+	margin-left: 30px;
+}
+
+.fontes {
+    color: white;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.suavenanav {
+    background-color: #50C878;
+}
+
