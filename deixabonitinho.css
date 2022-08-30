@@ -1,4 +1,54 @@
-#logoNav {
-    height: 64px;
-    width: ;
+#logonav {
+    margin-left: 40px;
+}
+
+#nomesite {
+	font-size: 24px;
+	font-weight: normal;
+	color: white;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#inicio {
+	margin-left: 30px;
+}
+
+.fontes {
+    color: white;
+	text-align: center;
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.suavenanav {
+    background-color: #50C878;
+}
+
+.registro {
+	margin-right: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	height: 35px;
+	line-height: 35px;
+	color: #37BF57;
+	font-family: Arial;
+	width: 150px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 2px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+ }
+
+#login {
+	margin-right: 40px;
+}
+
+#itensdireita {
+	padding-top: 10px
 }
