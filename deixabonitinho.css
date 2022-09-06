@@ -52,24 +52,3 @@
 #itensdireita {
 	padding-top: 10px
 }
-
-.slider {
-    display: block;
-    height: 1602px;
-    width: 642px;
-    margin: auto;
-    margin-top: 80px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-}
