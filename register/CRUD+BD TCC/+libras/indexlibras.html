@@ -1,0 +1,68 @@
+<!-- executar, verificar se está tudo certo, em seguida acrescentar campo "idade" alterando código dos arquivos -->
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<style>
+		table{
+			width:50%;
+			border:1px solid #ffffff;
+			text-align:center
+		}
+		th, td{
+			border:0.5px solid #ffffff;
+		}
+		body{
+			background-color:#010101;
+			color: #f1f1f1;
+			font-family: "arial";
+			
+			
+			
+		}
+		input:focus{
+			box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+			
+					}
+					
+		input{
+			
+			box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+			margin-bottom: 1px;
+			
+			
+		}			
+		
+		
+</style>
+<script>
+	function submeterForm(acao){ //submete o formulario mas passando...
+		document.getElementById('acao').value = acao; //o valor do campo de texto escondido para o valor do botao clicado para selecionar a acao e...
+		document.getElementById('f').submit(); //efetua a submissao do formulario
+	}
+	</script>
+	<?php session_start(); //inicia a sessao ?>
+</head>
+<body>
+
+	<form name="f" id="f" method="post" action="phplibras.php">
+		<input type="text" name="nome" value="" placeholder="nome"></input><br>
+		<input type="text" name="idade" value="" placeholder="idade"></input><br>
+		<input type="text" name="email" value="" placeholder="email"></input><br>
+		<input type="text" name="senha" value="" placeholder="senha"></input><br>
+		<input type="text" name="acao" id="acao" style="display:none"></input><br>
+		<input type="button" value="C - Create (Criar)" onclick="submeterForm('c');"></input>
+		<input type="button" value="R - Restore (Consultar)" onclick="submeterForm('r');"></input>
+		<input type="button" value="U - Update (Atualizar)" onclick="submeterForm('u');"></input>
+		<input type="button" value="D - Delete (Deletar)" onclick="submeterForm('d');"></input>
+	</form>
+	<br><br>
+	
+</body>
+</html>
