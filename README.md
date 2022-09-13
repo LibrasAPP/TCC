@@ -1,4 +1,4 @@
-<h1>Projeto TCC - +Libras</h1>
+<h1>+Libras | Projeto TCC</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ea quibusdam blanditiis accusantium repellat laudantium aliquid earum, error quaerat qui, facere commodi. Expedita ex ullam suscipit vel. Voluptatem, commodi quos.</p>
 
 <h2>Sobre o Projeto</h2>
