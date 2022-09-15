@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    width: 1000px;
+    height: 90%;
+    padding: 60px;
+    margin: auto;
+    background-color: #eee5e9;
+    border: 1px solid #C8CBD0;
+}
+
+h1#titulo {
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 3em;
+    color: #50C878;
+}
+
+form {
+    display: grid;
+    text-align: center;
+}
+
+input.registros {
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    border: 1px solid #000;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+input.registros:focus {
+    border: 1px solid #37BF57;
+}
+
+input.registros:focus::placeholder {
+    color: #37BF57;
+}
+
+input.registros::placeholder {
+    font-size: 15px;
+}
+
+input#confirmar {
+    background-color: #37BF57;
+    color: white;
+    border: 1px solid black;
+    margin: auto;
+    width: 220px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 2em;
+}

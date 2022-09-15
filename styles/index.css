@@ -23,6 +23,7 @@
 
 .suavenanav {
     background-color: #50C878;
+	box-shadow: 1px 1px 1px #36AB5D;
 }
 
 .registro {
@@ -55,8 +56,8 @@
 }
 
 #telafundoninicial {
-	width: auto;
-    height: auto;
+	 width: auto;
+    height: auto; 
 }
 
 .text{
@@ -155,4 +156,10 @@
 	display: inline-block;
 	cursor: pointer;
 	text-align: center;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
 }
