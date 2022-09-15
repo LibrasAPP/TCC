@@ -19,7 +19,8 @@
 		$sql = "insert into perfil (nome, idade, senha, email) values ('$nome','$idade','$senha','$email')"; //SQL utilizado para consulta
 		$res = $con->query($sql); //Excecuta o comando no banco de dados e armazena a resposta em $res
 		$_SESSION["aviso"] = "O cadastro foi efetuado com sucesso"; //salva um aviso para ser impresso na pagina inicial e...
-		header("location: ".$_SERVER['HTTP_REFERER']); //redireciona de volta para a pagina inicial
+		echo '<script>alert("Cadastro feito com sucesso!")</script>';
+		header("location:".$_SERVER['HTML_REFERER']); //redireciona de volta para a pagina inicial
 	}
 	if($acao == "r"){ //se a acao for para recuperar/ler dados
 		$sql = "select * from perfil where nome='$nome'"; //SQL utilizado para a consulta
