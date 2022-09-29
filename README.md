@@ -11,11 +11,11 @@
 <h3>Cores Utilizadas</h3>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo minus, consequuntur iste dolor fuga, numquam praesentium cumque, eligendi consectetur consequatur dicta. Vero ducimus dolorum esse, ex numquam asperiores dicta iure!</p>
 <ul>
-    <li><img src="images/50C878.png" alt="Icone da Cor">#50C878</li>
-    <li><img src="#" alt="Icone da Cor">#EAEBED</li>
-    <li><img src="#" alt="Icone da Cor">#006989</li>
-    <li><img src="#" alt="Icone da Cor">#007090</li>
-    <li><img src="#" alt="Icone da Cor">#01A7C2</li>
+    <li><img src="images/50C878.png" alt="Icone da Cor"> #50C878</li>
+    <li><img src="images/EAEBED.png" alt="Icone da Cor"> #EAEBED</li>
+    <li><img src="images/006989.png" alt="Icone da Cor"> #006989</li>
+    <li><img src="images/007090.png" alt="Icone da Cor"> #007090</li>
+    <li><img src="images/01A7C2.png" alt="Icone da Cor"> #01A7C2</li>
 </ul>
 
 <h3>Fontes Utilizadas</h3>
