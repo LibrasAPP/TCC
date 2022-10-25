@@ -55,89 +55,151 @@
 	padding-top: 10px
 }
 
-#telafundoninicial {
-	 width: auto;
-    height: auto; 
+#telafundo > img {
+	width: 100%;
 }
 
 .text{
 	background: rgba(0, 0, 0, 0.4);
 	color: #fff;
 	position: absolute;
-	height: 642px;
-	width: 1583px;
+	height: 610px;
+	width: 100%;
+	text-align: center;
+	padding-top: 16%;
 }
 
-#nomeinicial {
+h1#objetivos {
 	text-align: center;
-	padding-top: 250px;
-	font-style: normal;
-	font-size: 96px;
-	font-weight: 200;
+	margin: 2em 0px;
 }
 
-#objetivos {
+.textos {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: auto;
+	width: 1200px;
+	margin-bottom: 80px;
+	align-items: center;
+}
+
+.textos > p {
+	width: 400px;
 	text-align: center;
-	padding-top: 200px;
+	margin: auto;
+	font-size: 1.1em;
+}
+
+.textos > img {
+	margin: auto;
+}
+
+a#comecar {
+	border-radius: 20px;
+	line-height: 35px;
+	color: #37BF57;
+	border: solid #27B849 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 250px;
+	height: 60px;
+	padding: 8px;
+	font-size: 20px;
 	font-weight: 600;
-	font-size: 42px;
-}
-
-#textoinicial {
+	background-color: white;
+	text-decoration: none;
+	cursor: pointer;
 	text-align: center;
-	padding-top: 250px;
-	position: absolute;
-	width: 600px;
-	height: 500px;
-	left: 150px;
-	top: 900px;
-	font-size: 30px;
+	display: block;
+	margin: auto;
 }
 
-#exemploinicial1 {
-	right: 150px;
-	position: absolute;
-	padding-top: 10px;
-	top:1150px;
-	}
-	
-#textoinicial2 {
+div#gambiarra {
+	width: 100%;
+	height: 80px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;	
+}
+
+/* LOGADO */
+
+.botaoperfil {
+	margin-right: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	height: 35px;
+	line-height: 35px;
+	color: #37BF57;
+	font-family: Arial;
+	width: 150px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 2px;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
 	text-align: center;
-	position: absolute;
-	width: 600px;
-	height: 500px;
-	right: 150px;
-	top: 1800px;
-	font-size: 30px;
-}
-
-#exemploinicial2 {
-	left: 150px;
-	position: absolute;
-	padding-top: 650px;
-	top:1150px;
-	}
-	
-#textoinicial3 {
+} 
+  
+h1#titulo {
 	text-align: center;
-	position: absolute;
-	width: 600px;
-	height: 500px;
-	left: 150px;
-	top: 2400px;
-	font-size: 30px;
+	margin-top: 80px;
+	margin-bottom: 60px;
 }
 
-#exemploinicial3 {
-	right: 150px;
-	position: absolute;
-	padding-top: 1200px;
-	top:1150px;
-	}
+main#pagina {
+	display: grid;
+	grid-template-columns: 40% 40%;
+	text-align: center;
+	width: 1200px;
+	margin: auto;
+	column-gap: 20%;
+	padding: 40px;
+}
+
+div#texto {
+	align-self: center;
+}
+
+div#aula {
+	background-color: #EEE5E9;
+	padding: 40px;
+	border-radius: 20px;
 	
-.registro2 {
-	margin-top: 1800px;
-	margin-left: 700px;
+}
+
+div#texto2 {
+	margin-bottom: 40px;
+}
+
+a#botao {
+	margin: auto;
+	display: block;
+	border-radius: 20px;
+	line-height: 35px;
+	color: #37BF57;
+	border: solid #27B849 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 250px;
+	height: 60px;
+	padding: 8px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: white;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+/* .aulas2 {
+	margin-top: 200px;
+	right: 250px;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -156,15 +218,9 @@
 	display: inline-block;
 	cursor: pointer;
 	text-align: center;
-}
+} */
 
-html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0;	
-}
-
-#bemvindo {
+/* #bemvindo {
 	text-align: center;
 	padding-top: 20px;
 	font-weight: 600;
@@ -213,60 +269,16 @@ html, body {
 	top: 80px;
 	font-size: 30px;
 }
-.aulas2 {
-	margin-top: 200px;
-	right: 250px;	
-	/* margin-left: 440px; */
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	line-height: 35px;
-	position: absolute;
-	color: #37BF57;
-	border: solid #27B849 5px;
-	font-family: Arial;
-	width: 250px;
-	height: 60px;
-	padding: 8px;
-	font-size: 20px;
-	font-weight: 600;
-	background-color: #FFFFFF;
-	text-decoration: none;
-	display: inline-block;
-	cursor: pointer;
-	text-align: center;
-}
 
 main {
 	width: 400px;
 	height: 400px;
 	margin-left: 1000px;
 	margin-top: 50px;
-    /* margin: auto; */
     align-self: center;
     background-image: linear-gradient(45deg, #F7F3F5, #EEE5E9);
     padding: 80px;
     border-radius: 20px;
     border: 1px solid #F7F3F5;
 }
-
-.botaoperfil {
-	margin-right: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-
-	height: 35px;
-	line-height: 35px;
-	color: #37BF57;
-	font-family: Arial;
-	width: 150px;
-	font-size: 20px;
-	font-weight: 600;
-	padding: 2px;
-	background-color: #FFFFFF;
-	text-decoration: none;
-	display: inline-block;
-	cursor: pointer;
-	text-align: center;
-}
+ */

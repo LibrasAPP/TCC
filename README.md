@@ -1,5 +1,3 @@
-/* MODIFICAR O INDEX */
-
 <h1>+Libras</h1>
 <p>O projeto tem como objetivo auxiliar no ensino de LIBRAS no Brasil por meio de um website, visando alcançar o maior número de pessoas possível, independentemente do nível de conhecimento prévio, utilizando vídeo aulas, imagens e exercícios para o aprendizado. Assim é possível a maior inclusão de deficiente auditivos na sociedade, já que eles são 11 milhões no Brasil e ainda assim as LIBRAS não são obrigatórias em muitos empregos ou nas escolas.</p>
 

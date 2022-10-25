@@ -10,23 +10,22 @@
 </head>
 <body>
     <main>
-        <h1>Login</h1>
-        <form name="f" id="f" method="post" action="login.php">
-        <form action="login.php" method="POST">
-        <p>
-            <label> E-mail </label>
-            <input type="text" name="email" id="email">
-        </p>
-
-        <p>
-            <label> Senha </label>
-            <input type="password" name="senha" id="senha">
-        </p>
-        <p>
-            <input type="submit" value="Entrar">
-        </p>
-    </form>
-        </form>
+        <div>
+            <h1>Login</h1>
+            <form name="f" id="f" method="post" action="login.php">
+                <form action="login.php" method="POST">
+                    <p>
+                        <input type="text" name="email" id="email" placeholder="Email" class="registros">
+                    </p>
+                    <p>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" class="registros">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="entrar">
+                    </p>
+                </form>
+            </form>
+        </div>
     </main>
 </body>
 </html>
