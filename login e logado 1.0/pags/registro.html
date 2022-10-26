@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/registro.css">
+    <title>Registro</title>
+    <script>
+        function submeterForm(acao){ //submete o formulario mas passando...
+            document.getElementById('acao').value = acao; //o valor do campo de texto escondido para o valor do botao clicado para selecionar a acao e...
+            document.getElementById('f').submit(); //efetua a submissao do formulario
+        }
+        </script>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>Registre-se</h1>
+            <form name="f" id="f" method="post" action="phplibras.php">
+                <p class="inputs">
+                    <input class="registros" type="text" name="nome" value="" placeholder="Nome"> </input>
+                </p>
+                <p class="inputs">
+                    <input class="registros" type="email" name="email" value="" placeholder="Email"> </input>
+                </p>
+                <p class="inputs">   
+                    <input class="registros" type="password" name="senha" value="" placeholder="Senha"></input>
+                </p>
+                <p class="inputs">
+                    <input type="text" name="acao" id="acao" style="display:none"></input>
+                </p>
+                <p class="inputs">
+                    <input id="entrar" type="button" value="Registre-se" onclick="submeterForm('c');"></input>
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
