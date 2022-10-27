@@ -16,16 +16,26 @@
 </head>
 <body>
     <main>
-        <h1>Registre-se</h1>
-        <form name="f" id="f" method="post" action="phplibras.php">
-            <input class="registros" type="text" name="nome" value="" placeholder="Nome"> </input>
-            <input class="registros" type="text" name="email" value="" placeholder="Email"> </input>
-            <input class="registros" type="text" name="senha" value="" placeholder="Senha"></input>
-            <!-- <input class="registros" type="text" name="" value="" placeholder="Confirme sua senha"> -->
-            <input type="text" name="acao" id="acao" style="display:none"></input> <!--Não é um botão-->
-            <input class="registros"type="button" value="Registre-se" onclick="submeterForm('c');"></input>
-            <!-- <input class="registros" type="button" onclick="submeterForm('c');" href="index.html">Registre-se</input> -->
-        </form>
+        <div>
+            <h1>Registre-se</h1>
+            <form name="f" id="f" method="post" action="phplibras.php">
+                <p class="inputs">
+                    <input class="registros" type="text" name="nome" value="" placeholder="Nome"> </input>
+                </p>
+                <p class="inputs">
+                    <input class="registros" type="email" name="email" value="" placeholder="Email"> </input>
+                </p>
+                <p class="inputs">   
+                    <input class="registros" type="password" name="senha" value="" placeholder="Senha"></input>
+                </p>
+                <p class="inputs">
+                    <input type="text" name="acao" id="acao" style="display:none"></input>
+                </p>
+                <p class="inputs">
+                    <input id="entrar" type="button" value="Registre-se" onclick="submeterForm('c');"></input>
+                </p>
+            </form>
+        </div>
     </main>
 </body>
 </html>

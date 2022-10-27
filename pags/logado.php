@@ -1,23 +1,22 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+	if(isset($_SESSION['logado']) && $_SESSION['logado'] == true){
+    echo ('<script>Login realizado com sucesso!</script>');
+?>
+
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../styles/index.css">
-  <link rel="stylesheet" href="../styles/dicionario.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
   <title>+Libras</title>
-  <script type="text/javascript">
-		function abrir() {
-			document.getElementById('popupteste').style.display = 'block';
-		}
-		function fechar() {
-			document.getElementById('popupteste').style.display = 'none';
-		}
-  </script>
 </head>
-<body>
+<body id="logado">
 	<nav class="navbar navbar-expand-lg suavenanav">
     <img src="../images/logo-branca-64px.png" alt="Logo do Aplicativo" id="logonav">
     <div class="container-fluid">
@@ -25,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li id="inicio" class="nav-item">
-           <a class="fontes nav-link" aria-current="page" href="logado.html">Inicio</a>
+            <a class="fontes nav-link" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="fontes nav-link" aria-current="page" href="aulas.html">Aulas</a>
@@ -38,27 +37,33 @@
       <div id="itensdireita">
         <ul class="collapse navbar-collapse" id="navbarSupportedContent">
           <li class="nav-item" type="none">
-            <a class="registro nav-link" aria-current="page" href="#">Cadastro</a>
-          </li>
-          <li id="login" class="nav-item" type="none">
-            <a class="fontes nav-link" aria-current="page" href="#">Login</a>
+            <a class="botaoperfil nav-link" aria-current="page" href="perfil.php">Desconectar</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-    <h1>Dicionario</h1>
-    <div id="divBusca">
-      <img src="../images/lupabusca.png" id="btnBusca" alt="Buscar"/>
-      <input type="text" id="txtBusca" placeholder="Pesquisar expressão, termo..."/>
+  <h1 id="titulo">Bem vindo de volta!</h1>
+  <main id="pagina">
+    <div id="texto">
+      <h2>Como vão seus estudos?</h2>
+      <p>Você possui aulas para realizar!</p>
     </div>
-	<div id="popupteste">
-		<p>Teste</P>
-	</div>
-	
-	<!--ações para o popup-->
-	<!--<a href="javascript: abrir();">Abrir Pop-up</a> -->
-	<img scr=""https://i.imgur.com/7KpCS0Y.jpg"" onclick="abrir()" role="button"/>
-	<a href="javascript: fechar();">Fechar Pop-up</a>
+    <div id="aula">
+      <div id="texto2">
+        <h3>Aula 3</h3>
+        <p>Aprendendo a Conversar</p>
+      </div>
+      <a id="botao" class="nav-link" aria-current="page" href="aulas.html">Começar a aula!</a>
+    </div>
+  </main>
 </body>
 </html>
+
+<?php
+	}else{
+		echo "não tá funcionando";
+    session_destroy();
+	}
+	
+?>
