@@ -60,10 +60,9 @@
 }
 
 .text{
-	background: rgba(0, 0, 0, 0.4);
 	color: #fff;
 	position: absolute;
-	height: 610px;
+	height: 100%;
 	width: 100%;
 	text-align: center;
 	padding-top: 16%;
