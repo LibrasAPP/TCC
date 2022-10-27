@@ -15,7 +15,7 @@
                 $senha =$_POST['senha'];
             
         
-                $sql_code = "SELECT * FROM usuario WHERE Emailusuario = '".$email."' AND senha ='".$senha."'";
+                $sql_code = "SELECT * FROM usuarios WHERE Emailusuario = '".$email."' AND senha ='".$senha."'";
                 $sql_query = $mysqli->query($sql_code) or die('Falha na execução do código SQL'.$mysqli->error);
 
                 $quantidade=$sql_query->num_rows;

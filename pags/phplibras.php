@@ -9,7 +9,7 @@ session_start();
 	$con = new mysqli("127.0.0.1:3306", "root", "", "bdlibras");
 
 	if ($acao == "c") {
-		$sql = "insert into usuario(NomeUsuario, Senha, EmailUsuario) values ('$nome','$senha','$email')";
+		$sql = "insert into usuarios(NomeUsuario, Senha, EmailUsuario) values ('$nome','$senha','$email')";
 		$res = $con->query($sql);
 		$_SESSION['aviso'] = "O cadastro foi realizado com êxito";
 		echo '<script> alert("Cadastro realizado com êxito") </script>';
@@ -24,7 +24,7 @@ session_start();
 			echo("<tr><th>idprod</th><th>nome</th>");
 			while ($campo = $res->fetch_assoc()) {
 				echo("<tr>");
-				echo("<td>".$campo["idperfil"]."</td>"); //seleciona o valor no campo 'idprod' para a execucao do laco atual do while
+				echo("<td>".$campo["idusuario"]."</td>"); //seleciona o valor no campo 'idprod' para a execucao do laco atual do while
 				echo("<td>".$campo["nome"]."</td>"); //seleciona o valor no campo 'nome' para a execucao do laco atual do while
 				echo("<td>".$campo["email"]."</td>"); //seleciona o valor no campo 'email' para a execucao do laco atual do while
 				echo("<td>".$campo["senha"]."</td>"); //seleciona o valor no campo 'senha' para a execucao do laco atual do while
