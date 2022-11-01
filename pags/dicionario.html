@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../bootstrap-5.2.0-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../styles/index.css">
   <link rel="stylesheet" href="../styles/dicionario.css">
   <title>+Libras</title>
-  <script type="text/javascript">
-		function abrir() {
-			document.getElementById('popupteste').style.display = 'block';
-		}
-		function fechar() {
-			document.getElementById('popupteste').style.display = 'none';
-		}
-  </script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg suavenanav">
@@ -52,13 +44,59 @@
       <img src="../images/lupabusca.png" id="btnBusca" alt="Buscar"/>
       <input type="text" id="txtBusca" placeholder="Pesquisar expressão, termo..."/>
     </div>
-	<div id="popupteste">
-		<p>Teste</P>
+    <main>
+	<div id="popup">
+    <button id="botaofechar" onclick="fechar()"><img src="../images/iconefechar.png" width="30px" height="30px"/></button>
 	</div>
 	
 	<!--ações para o popup-->
-	<!--<a href="javascript: abrir();">Abrir Pop-up</a> -->
-	<img scr=""https://i.imgur.com/7KpCS0Y.jpg"" onclick="abrir()" role="button"/>
-	<a href="javascript: fechar();">Fechar Pop-up</a>
+    <button class= "botaodic" onclick="cor(this.id)" id="red"><img src="../images/boatarde.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="blue"><img src="../images/bomdia.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="green"><img src="../images/boanoite.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="orange"><img src="../images/bemvindo.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="yellow"><img src="../images/euteamo.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="purple"><img src="../images/ola.png"/></button>
+    <button class= "botaodic" onclick="cor(this.id)" id="black"><img src="../images/tchau.png"/></button>
+  </main>
+  <div id="gambiarra2"></div>
 </body>
 </html>
+<script>
+  function abrir() {
+			document.getElementById('popupteste').style.display = 'block'; //Mostra o popup
+		}
+		function fechar() {
+			document.getElementById('popup').style.display = 'none'; //Fecha o popup
+		}
+    const cor = (param) => {
+        let a = document.getElementById("popup"); //Caso a variavel seja igual, abre o popup
+        if(param == "red"){
+        a.style.backgroundImage = "url('../images/boatarde.png')";;
+        a.style.backgroundRepeat = "no-repeat"
+        a.style.backgroundSize = "500px 300px"
+        document.getElementById('popup').style.display = 'block';} //Compara a variavel e mostra a imagem no popup
+        if(param == "blue"){
+        a.style.backgroundImage = "url('../images/bomdia.png')";;
+        document.getElementById('popup').style.display = 'block';}
+        if(param == "green"){
+        a.style.backgroundImage = "url('../images/boanoite.png')";;
+        document.getElementById('popup').style.display = 'block';}
+        if(param == "orange"){
+        a.style.backgroundImage = "url('../images/bemvindo.png')";;
+        document.getElementById('popup').style.display = 'block';}
+        if(param == "yellow"){
+        a.style.backgroundImage = "url('../images/euteamo.png')";;
+        document.getElementById('popup').style.display = 'block';}
+        if(param == "purple"){
+        a.style.backgroundImage = "url('../images/ola.png')";;
+        document.getElementById('popup').style.display = 'block';}
+        if(param == "black"){
+        a.style.backgroundImage = "url('../images/tchau.png')";;
+        document.getElementById('popup').style.display = 'block';}
+    }
+</script>
+
+<!-- Referências de estudo-->
+<!-- https://pt.stackoverflow.com/questions/111943/como-adicionar-um-popup-com-imagem-ao-acessar-o-site -->
+<!-- https://pt.stackoverflow.com/questions/210082/como-alterar-a-imagem-de-acordo-com-uma-vari%C3%A1vel-vinda-do-banco -->
+<!-- https://hcode.com.br/blog/realizando-importacao-no-php-com-include-e-require -->
