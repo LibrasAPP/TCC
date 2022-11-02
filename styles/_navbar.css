@@ -92,7 +92,7 @@ a.marcado {
     color: var(--cor1);
     background-color: white;
     border: 1px solid var(--cor1);
-    transition: 00.2s;
+    transition: 0.2s;
 }
 
 #direita a:hover {
