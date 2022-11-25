@@ -1,0 +1,125 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	--cor1: #50C878;
+    --cor1-1: #3BBA65;
+    --cor1-2: hsla(140, 52%, 48%, 0.9);
+	--cor2: #EAEBED;
+    --cor2-1: #D3D5D9;
+    --cor2-2: hsla(0, 0%, 92%, 0.9);
+    --cor2-3: hsla(0, 0%, 92%, 0.2);
+	--cor3: #006989;
+	--cor4: #007090;
+	--cor5: #01A7C2;
+    --cor6: #A94442;
+    --cor7: #F2DEDE;
+    --cor8: #1E1E1E;
+	--fonte_titulo: 'Inter', sans-serif;
+	--fonte_texto: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* +Libras */
+
+#librasimg {
+    background-image: url(../img/background/background-50.jpeg);
+    background-position: top;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 92vh;
+}
+
+#librasimg h1 {
+    font-family: var(--fonte_titulo);
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+}
+
+/* Main */
+
+main {
+    background-color: var(--cor2);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+main h2 { 
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: var(--fonte_titulo);
+    font-weight: normal;
+    font-size: 2em;
+    color: var(--cor8);
+}
+
+/* Texto */
+
+.paragrafo {
+    margin: auto;
+    padding: 0px 30px;
+    max-width: 600px;
+    min-width: 250px;
+    height: 140px;
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.paragrafo p {
+    font-family: var(--fonte_titulo);
+    font-size: 16px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+/* Botão começar*/
+
+#comecar {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+#comecar a {
+    border: 2px solid var(--cor1);
+    border-radius: 15px;
+    width: 180px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--fonte_titulo);
+    font-weight: bold;
+    color: var(--cor1);
+    transition: 0.1s;
+}
+
+#comecar a:hover {
+    background-color: var(--cor1);
+    color: white;
+}
+
+
+/* Rodapé */
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: var(--cor1);
+}
