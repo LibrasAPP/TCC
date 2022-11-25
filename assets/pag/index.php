@@ -38,7 +38,7 @@
         <nav>
             <ul>
                 <a href="#" class="marcado">Inicio</a>
-                <a href="pag/">Aulas</a>
+                <a href="modulos.html">Aulas</a>
                 <a href="pag/">Dicionário</a>
             </ul>
         </nav>
