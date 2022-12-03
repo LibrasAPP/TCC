@@ -12,11 +12,11 @@
 <h3>Cores Utilizadas</h3>
 <p>As cores principais do Mais Libras foram selecionadas especialmente com base na teoria das cores, que argumenta que certas cores podem ter um significado ou uma sensação atribuída a elas.</p>
 <ul>
-    <li><img src="images/50C878.png" alt="Icone da Cor"> #50C878</li>
-    <li><img src="images/EAEBED.png" alt="Icone da Cor"> #EAEBED</li>
-    <li><img src="images/006989.png" alt="Icone da Cor"> #006989</li>
-    <li><img src="images/007090.png" alt="Icone da Cor"> #007090</li>
-    <li><img src="images/01A7C2.png" alt="Icone da Cor"> #01A7C2</li>
+    <li><img src="assets/img/50C878.png" alt="Icone da Cor"> #50C878</li>
+    <li><img src="assets/img/EAEBED.png" alt="Icone da Cor"> #EAEBED</li>
+    <li><img src="assets/img/006989.png" alt="Icone da Cor"> #006989</li>
+    <li><img src="assets/img/007090.png" alt="Icone da Cor"> #007090</li>
+    <li><img src="assets/img/01A7C2.png" alt="Icone da Cor"> #01A7C2</li>
 </ul>
 <p>O site conta com uma paleta de cor composta de tons de verde, branco e azul. O verde passa a sensação de tranquilidade e equilíbrio, assim sua função no visual é de passar um conforto para o estudante, também é comum o uso de verde em escolas, o que faz o usuário associar o Mais Libras com um ambiente de estudo.</p>
 <p>O branco já é utilizado para dar uma limpeza ao site, complementando o verde e azul, também é utilizado na nossa logo que conta com partes brancas em seu interior. Os tons de azul trazem uma harmonia, assim como o verde, para também passar uma sensação de paz. </p>
