@@ -39,12 +39,9 @@
                 <button class="botaodic" onclick="cor(this.id)" id="1">Bom Dia</button>
                 <button class="botaodic" onclick="cor(this.id)" id="2">Boa Tarde</button>
                 <button class="botaodic" onclick="cor(this.id)" id="3">Boa Noite</button>
-                <button class="botaodic" onclick="cor(this.id)" id="4"></button>
-                <button class="botaodic" onclick="cor(this.id)" id="5"></button>
-                <button class="botaodic" onclick="cor(this.id)" id="6"></button>
-                <button class="botaodic" onclick="cor(this.id)" id="7"></button>
-                <button class="botaodic" onclick="cor(this.id)" id="8"></button>
-                <button class="botaodic" onclick="cor(this.id)" id="9"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="4">Eu te amo</button>
+                <button class="botaodic" onclick="cor(this.id)" id="5">Olá</button>
+                <button class="botaodic" onclick="cor(this.id)" id="6">Tchau</button>
             </div>
         </main>
     </div>
@@ -74,6 +71,26 @@
         }
 
         if (param == "3"){
+            a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "4"){
+            a.style.backgroundImage = "url(../img/dicionario/euteamo.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "5"){
+            a.style.backgroundImage = "url(../img/dicionario/oi.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "6"){
+            a.style.backgroundImage = "url(../img/dicionario/tchau.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "7"){
             a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
             document.getElementById('backgroundpopup').style.display='grid';
         }
