@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+#librasimg {
+    background-image: url(../img/background/background-50.jpeg);
+    background-position: top;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 92vh;
+}
+
+#librasimg h1 {
+    font-family: var(--fonte_titulo);
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+}
+
+main {
+    background-color: var(--cor2);
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 60px 10px 100px 10px;
+}
+
+main h2 { 
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: var(--fonte_titulo);
+    font-weight: normal;
+    font-size: 2em;
+    color: var(--cor8);
+}
+
+.paragrafo {
+    margin: auto;
+    max-width: 600px;
+    min-width: 250px;
+    height: 120px;
+    display: grid;
+    align-items: center;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.paragrafo p {
+    font-family: var(--fonte_titulo);
+    font-size: 18px;
+    text-align: center;
+}
+
+#modulos {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+#modulos a {
+    border: 2px solid var(--cor5);
+    border-radius: 20px;
+    color: var(--cor5);
+    width: 200px;
+    height: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: var(--fonte_titulo);
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+#modulos a:hover {
+    background-color: var(--cor5);
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: var(--cor1);
+}
