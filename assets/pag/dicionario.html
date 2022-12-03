@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+Libras - Dicionario</title>
+    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style/dicionario.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="../img/logo-branca/logo-branca-48px.png" alt="logo do +libras">
+        </div>
+        <nav>
+            <ul>
+                <a href="index.php">Inicio</a>
+                <a href="modulos.html">Aulas</a>
+                <a href="#" class="marcado">Dicionário</a>
+            </ul>
+        </nav>
+        <div id="direita">
+            <span><a href="" id="perfil">Meu Perfil</a></span>
+        </div>
+    </header>
+    <div>
+        <div id="backgroundpopup">
+            <div id="popup">
+                <button id="botaofechar" onclick="fechar()">x</button>
+            </div>
+        </div>
+        <main>
+            <div id="titulo">
+                <h1>Dicionário</h1>
+            </div>
+            <div id="conteudo">
+                <button class="botaodic" onclick="cor(this.id)" id="0">Bem Vindo</button>
+                <button class="botaodic" onclick="cor(this.id)" id="1">Bom Dia</button>
+                <button class="botaodic" onclick="cor(this.id)" id="2">Boa Tarde</button>
+                <button class="botaodic" onclick="cor(this.id)" id="3">Boa Noite</button>
+                <button class="botaodic" onclick="cor(this.id)" id="4"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="5"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="6"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="7"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="8"></button>
+                <button class="botaodic" onclick="cor(this.id)" id="9"></button>
+            </div>
+        </main>
+    </div>
+    <footer></footer>
+</body>
+</html>
+<script>
+    function fechar() {
+        document.getElementById('backgroundpopup').style.display="none";
+    }
+    const cor = (param) => {
+        let a = document.getElementById("popup");
+
+        if (param == "0"){
+            a.style.backgroundImage = "url(../img/dicionario/bemvindo.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "1"){
+            a.style.backgroundImage = "url(../img/dicionario/bomdia.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+        
+        if (param == "2"){
+            a.style.backgroundImage = "url(../img/dicionario/boatarde.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+
+        if (param == "3"){
+            a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
+            document.getElementById('backgroundpopup').style.display='grid';
+        }
+    }
+</script>
