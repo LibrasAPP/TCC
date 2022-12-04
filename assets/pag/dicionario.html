@@ -7,6 +7,34 @@
     <title>+Libras - Dicionario</title>
     <link rel="stylesheet" href="../style/navbar.css">
     <link rel="stylesheet" href="../style/dicionario.css">
+    <script>
+        function fechar() {
+            document.getElementById('backgroundpopup').style.display="none";
+        }
+        const cor = (param) => {
+            let a = document.getElementById("popup");
+    
+            if (param == "0"){
+                a.style.backgroundImage = "url(../img/dicionario/bemvindo.gif)";
+                document.getElementById('backgroundpopup').style.display='grid';
+            }
+    
+            if (param == "1"){
+                a.style.backgroundImage = "url(../img/dicionario/bomdia.gif)";
+                document.getElementById('backgroundpopup').style.display='grid';
+            }
+            
+            if (param == "2"){
+                a.style.backgroundImage = "url(../img/dicionario/boatarde.gif)";
+                document.getElementById('backgroundpopup').style.display='grid';
+            }
+    
+            if (param == "3"){
+                a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
+                document.getElementById('backgroundpopup').style.display='grid';
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -48,51 +76,3 @@
     <footer></footer>
 </body>
 </html>
-<script>
-    function fechar() {
-        document.getElementById('backgroundpopup').style.display="none";
-    }
-    const cor = (param) => {
-        let a = document.getElementById("popup");
-
-        if (param == "0"){
-            a.style.backgroundImage = "url(../img/dicionario/bemvindo.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "1"){
-            a.style.backgroundImage = "url(../img/dicionario/bomdia.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-        
-        if (param == "2"){
-            a.style.backgroundImage = "url(../img/dicionario/boatarde.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "3"){
-            a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "4"){
-            a.style.backgroundImage = "url(../img/dicionario/euteamo.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "5"){
-            a.style.backgroundImage = "url(../img/dicionario/oi.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "6"){
-            a.style.backgroundImage = "url(../img/dicionario/tchau.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-
-        if (param == "7"){
-            a.style.backgroundImage = "url(../img/dicionario/boanoite.gif)";
-            document.getElementById('backgroundpopup').style.display='grid';
-        }
-    }
-</script>
