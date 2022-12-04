@@ -1,13 +1,17 @@
-body {
-    background-color: var(--cor2);
-}
+@charset "utf-8";
 
 main {
-    height: 800px;
-    max-width: 1000px;
+    background-color: var(--cor2);
+    height: 1000px;
+    max-width: 1100px;
     min-width: 320px;
     margin: auto;
-    padding: 40px 80px 80px 80px;
+    padding: 0px 10px 80px 10px;
+}
+
+#titulo {
+    margin-bottom: 40px;
+    padding: 0px 40px;
 }
 
 h1 {
@@ -15,19 +19,24 @@ h1 {
     font-family: var(--fonte_titulo);
     font-weight: 400;
     font-size: 2em;
+    padding-top: 40px;
 }
 
 h1::before {
     content: "| ";
 }
 
+#conteudo {
+    margin: 60px 40px;
+}
+
 div.aulas {
-    background-color: var(--cor2);
+    background-color: white;
     border: 1px solid var(--cor8);
     border-radius: 20px;
-    max-width: 600px;
+    max-width: 500px;
     min-width: none;
-    margin-top: 40px;
+    margin: 40px 40px;
     padding: 25px;
 }
 
