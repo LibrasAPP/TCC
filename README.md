@@ -4,10 +4,8 @@
 <h2>Sobre o Projeto</h2>
 <p>Libras é uma abreviação para língua brasileira de sinais, sendo difundida no brasil por volta do meio do século 19 derivada da antiga língua francesa de sinais. É uma língua que consiste na comunicação com gestos e expressões corporais, sendo utilizada principalmente para a comunicação com deficientes auditivos.</p>
 <p>De acordo com uma pesquisa realizada pelo instituto brasileiro de geografia e estatística (IBGE), é estimado que haja aproximadamente 11 milhões de pessoas tenham deficiência auditiva no brasil, sendo 2,3 milhões desses com deficiência severa, esse número consiste em 5% da população total do país. Após um estudo do instituto locomotiva, foi constatado que 54% dos surdos são do gênero masculino e 46% do gênero feminino.</p>
-<p>Mesmo com esse número alarmante, não há um grande incentivo ao aprendizado e ensino de libras, não sendo aplicada na maioria das escolas públicas ou requisitada no mercado de trabalho, além de muitos funcionários públicos não terem o conhecimento básico da língua. Isso gera diversas consequências para os deficientes auditivos como exclusão do sujeito da sociedade, dificuldade de acesso a serviços essenciais (saúde, segurança, etc.), Dificuldade em estudo e conseguir emprego.</p>
+<p>Mesmo com esse número alarmante, não há um grande incentivo ao aprendizado e ensino de libras, não sendo aplicada na maioria das escolas públicas ou requisitada no mercado de trabalho, além de muitos funcionários públicos não terem o conhecimento básico da língua. Isso gera diversas consequências para os deficientes auditivos como exclusão do sujeito da sociedade, dificuldade de acesso a serviços essenciais (saúde, segurança, etc.), dificuldade em estudo e conseguir emprego.</p>
 <p>Por isso, a difusão da língua é muito importante para toda a sociedade, dando acessibilidade para os surdos, assim +Libras foi criado com o intuito de dar aulas de libras separadas por módulos, do mais básico até o mais avançado, também contendo um dicionário, onde é possível pesquisar termos ou palavras específicas.</p>
-
-
 
 <h3>Cores Utilizadas</h3>
 <p>As cores principais do Mais Libras foram selecionadas especialmente com base na teoria das cores, que argumenta que certas cores podem ter um significado ou uma sensação atribuída a elas.</p>
